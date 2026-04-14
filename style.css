@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    place-content: center;
+}
+
+.navbar {
+    display: flex;
+    border-bottom: .3rem lightgray solid;
+
+}
+
+.nav-content {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+}
