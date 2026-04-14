@@ -60,12 +60,12 @@ body {
     border-bottom: .3rem black solid;
     border-top: .3rem black solid;
     justify-content: space-between;
-
+    align-items: center;
 }
 
 
 .brand {
-    size: var(--step-3);
+    font-size: var(--step-3);
     margin: 0;
 }
 
@@ -78,6 +78,8 @@ a {
 
 .nav-content {
     display: flex;
+    gap: var(--space-s);
     list-style: none;
     flex-direction: row;
+    font-size: var(--step-1);
 }
